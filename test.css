@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* scroll animation */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* greetings 1 */
+  #greeting {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* greetings 2 */
+  #greeting.transition {
+    opacity: 0;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    color: rgb(50, 50, 50);
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 20vh 5vw;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-image: url('../img/0C0A1744_4.jpg');
+    background-size: cover;
+  }
+  
+  /* Increase the font size of the heading h1*/
+  .header h1 {
+    font-size: 6vw;
+    color: rgb(50, 50, 50);
+    margin-bottom: -10vh;
+  }
+  
+  /* Increase the font size of the heading h2*/
+  .header h2 {
+    font-size: 20vw;
+    color: rgb(50, 50, 50);
+    margin-bottom: -5vh;
+  }
+  
+  /* Increase the font size of the heading h3*/
+  .header h3 {
+    font-size: 10vw;
+    color: rgb(50, 50, 50);
+  }
+  
+  /* industrial design section */
+  .industrial-design {
+    padding: 5vh 5vw;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: #e6e6e6;
+  }
+  
+  /* Increase the font size of the industrial-design h1*/
+  .industrial-design h1 {
+    font-size: 3vw;
+    color: rgb(50, 50, 50);
+    margin-bottom: 10vh;
+  }
+  
+  /* photography section */
+  .photography {
+    padding: 5vh 5vw;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: #e6e6e6;
+  }
+  
+  /* Increase the font size of the photography h1*/
+  .photography h1 {
+    font-size: 3vw;
+    color: rgb(50, 50, 50);
+    margin-bottom: 10vh;
+  }
+  
+  /* learn more about me section */
+  .me {
+    padding: 5vh 5vw;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    background-color: #9b9b9b;
+  }
+  
+  /* Increase the font size of me h1*/
+  .me h1 {
+    font-size: 3vw;
+    color: rgb(50, 50, 50);
+    margin-bottom: 5vh;
+  }
+  
+  /* Style of the buttons */
+  .round-button {
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #565656;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding: 2vh 4vw;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.37);
+  }
+  
+  /* Style of the buttons when hovering */
+  .round-button:hover {
+    background-color: #2c2c2c;
+    color: rgb(236, 131, 45);
+  }
+  
+  /* Style of the top left logo */
+  .logo-image {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 30px;
+    float: left;
+  }
+  
+  /* Default styles for navigation bar */
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #d9d9d97d;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(21, 21, 21);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #2c2c2c;
+    color: rgb(236, 131, 45);
+  }
+  
+  .navbar a:active {
+    background-color: rgb(92, 138, 245);
+    color: black;
+  }
+  
+  /* Default styles for footer */
+  footer {
+    background-color: #9b9b9b;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    padding: 20px;
+    margin: 0;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .right {
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  /* Media queries for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .navbar a {
+      padding: 10px;
+    }
+    .left, .right {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Media queries for medium screens */
+  @media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .navbar a {
+      padding: 12px;
+    }
+    .left, .right {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Media queries for larger screens */
+  @media only screen and (min-width: 1001px) {
+    .navbar a {
+      padding: 14px 20px;
+    }
+    .left, .right {
+      padding: 20px;
+      font-size: 20px;
+    }
+  }
