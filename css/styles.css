@@ -81,6 +81,7 @@ body {
   text-align: center;
   color: rgb(50, 50, 50);
   background-color: #e6e6e6;
+  box-shadow: 0 8px 200px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Increase the font size of the industrial-design h1*/
@@ -99,6 +100,7 @@ body {
   text-align: center;
   color: rgb(50, 50, 50);
   background-color: #9b9b9b;
+  box-shadow: 0 8px 200px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Increase the font size of me h1*/
@@ -141,6 +143,7 @@ body {
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   width: 100%;
+  z-index: 999;
   background-color: #d9d9d97d;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(20px);

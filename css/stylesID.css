@@ -21,7 +21,7 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
 .grid-item {
@@ -44,7 +44,8 @@ body {
 .grid-item:hover img {
     transform: scale(1.1);µ
     filter: blur(8px);
-    -webkit-filter: blur(8px)
+    -webkit-filter: blur(8px);
+    filter: brightness(70%);
 }
 
 .grid-item .text {
@@ -77,9 +78,11 @@ body {
     padding-bottom: 250px;
     text-align: center;
     color: rgb(50, 50, 50);
-    background-image: url('/img/0C0A1744_4.jpg');
+    background-image: url('../img/0C0A1744_4.jpg');
     background-size: cover;
   /* background-color: #e6e6e6; */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
   }
     
   /* Increase the font size of the heading h1*/
@@ -147,6 +150,7 @@ body {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     width: 100%;
+    z-index: 999;
     background-color: #d9d9d97d;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(20px);
@@ -227,8 +231,16 @@ footer {
   max-width: 10%;
 }  
 
+.photo {
+  padding-top: 75px;
+  padding-bottom: -50 px;
+}  
   
-  
+.terug {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
   
   
