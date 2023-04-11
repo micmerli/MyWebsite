@@ -111,7 +111,7 @@
         <a href="Aboutme.html">About me</a>
     </div>
 
-    <div class="header1">
+    <div class="header1 h-100">
         <h1><span id="greeting">Hello</span>, I'm</h1>
         <h2>Michiel Merlier</h2>
         <h3>And I do ...</h3>
@@ -122,21 +122,16 @@
     <div id="industrial-design", class="industrial-design">
         <h1>Industrial Design</h1>
         <div class="carouselsize">  
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div id="carouselIndutrialDesign" class="carousel carousel-dark slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselIndutrialDesign" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndutrialDesign" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndutrialDesign" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="img/ID/Kettle1.jpg" class="d-block w-100" alt="Kettle">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div class="carousel-caption d-none d-md-block">
-                      <a onclick="openModal()" class="invisible-button">View more</a>
-                      <p></p>
-                  </div>
-                  </div>
+                <a onclick="openModal()" class="clickable-image"><img src="img/ID/Kettle1.jpg" class="d-block w-100" alt="Kettle"></a>
+                  <div class="carousel-caption d-none d-md-block" ></div>
                   <div id="pdfModal" class="modal">
                     <!-- Close button -->
                     <span class="close" onclick="closeModal()"></span>
@@ -145,11 +140,7 @@
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="img/ID/samsunglogo.jpg" class="d-block w-100" alt="SamsungSolveForTomorrow">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a onclick="openModal2()" class="invisible-button">View more</a>
-                    <p></p>
-                  </div>
+                  <a onclick="openModal2()" class="clickable-image"><img src="img/ID/samsunglogo.jpg" class="d-block w-100" alt="SamsungSolveForTomorrow"></a>
                   <div id="pdfModal2" class="modal">
                     <!-- Close button -->
                     <span class="close" onclick="closeModal2()"></span>
@@ -158,18 +149,14 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/photography/520d/bmwthomas1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="..." class="invisible-button">View more</a>
-                    <p></p>
-                  </div>
+                  <a href="#" class="clickable-image"><img src="img/photography/520d/bmwthomas1.jpg" class="d-block w-100" alt="..."></a>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndutrialDesign" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndutrialDesign" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -181,50 +168,32 @@
     <div id="photography", class="photography">
         <h1>Photography</h1>
         <div class="carouselsize">  
-            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div id="carouselPhotography" class="carousel carousel-dark slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselPhotography" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPhotography" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPhotography" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselPhotography" data-bs-slide-to="3" aria-label="Slide 4"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="img/photography/520d/bmwthomas1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <div class="carousel-caption d-none d-md-block">
-                      <a href="..." class="invisible-button">View more</a>
-                      <p></p>
-                  </div>
-                  </div>
+                  <a href="#" class="clickable-image"><img src="img/photography/520d/bmwthomas1.jpg" class="d-block w-100" alt="..."></a>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="img/photography/M2/BMWM2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="..." class="invisible-button">View more</a>
-                    <p></p>
-                  </div>
+                  <a href="#" class="clickable-image"><img src="img/photography/M2/BMWM2.jpg" class="d-block w-100" alt="..."></a>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/photography/steamcontroller/micmerli_03_2,5-1_2,8.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="..." class="invisible-button">View more</a>
-                    <p></p>
-                  </div>
+                  <a href="#" class="clickable-image"><img src="img/photography/steamcontroller/micmerli_03_2,5-1_2,8.jpg" class="d-block w-100" alt="..."></a>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/ID/samsunglogo.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="..." class="invisible-button">View more</a>
-                    <p></p>
-                  </div>
+                  <a href="#" class="clickable-image"><img src="img/ID/samsunglogo.jpg" class="d-block w-100" alt="..."></a>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotography" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotography" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>

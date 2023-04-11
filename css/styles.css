@@ -38,20 +38,21 @@ body {
 .header1 h1 {
   font-size: 40px;
   color: rgb(50, 50, 50);
-  margin-bottom: -100px;
+  /* margin-bottom: -100px; */
 }
 
 /* Increase the font size of the heading h2*/
 .header1 h2 {
   font-size: 160px;
   color: rgb(50, 50, 50);
-  margin-bottom: -50px;
+  /* margin-bottom: -25px; */ 
 }
 
 /* Increase the font size of the heading h3*/
 .header1 h3 {
   font-size: 80px;
   color: rgb(50, 50, 50);
+  margin-bottom: 25px;
 }
 
 /* industrial design section */
@@ -235,7 +236,9 @@ footer {
   font-size: 20px;
 }
 
-
+.clickable-image:hover {
+  cursor: pointer;
+}
 
 
 
