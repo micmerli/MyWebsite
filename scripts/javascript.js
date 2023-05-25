@@ -16,3 +16,21 @@ function sleep(ms) {
 }
 
 setInterval(changeTitle, 4000);
+
+
+
+function openModal() {
+    document.getElementById("pdfModal").style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById("pdfModal").style.display = "none";
+  }
+
+  function openModal2() {
+    document.getElementById("pdfModal2").style.display = "block";
+  }
+
+  function closeModal2() {
+    document.getElementById("pdfModal2").style.display = "none";
+  }
